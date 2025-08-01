@@ -38,6 +38,21 @@
     ],
     "parts": [
         {
+            "partsId": 1,
+            "partsName": "group1",
+            "parts": {
+                "head":"head.png",
+                "hair":""
+            }
+        },
+        {
+            "partsId": 2,
+            "partsName": "group2",
+            "parts": {
+                "head":"head.png"
+            }
+        },
+        {
             "partsId": 3,
             "partsName": "group3",
             "parts": {
