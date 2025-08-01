@@ -1,0 +1,55 @@
+{
+    "icons": [
+        {
+            "iconsId": 1,
+            "iconsName": "arms",
+            "icons": [ {"partsId": 3, "icon": "arms3icon.png"}]
+        },
+        {
+            "iconsId": 2,
+            "iconsName": "feet",
+            "icons": [ {"partsId": 3, "icon": "feeticon.png"}]
+        },
+        {
+            "iconsId": 3,
+            "iconsName": "full",
+            "icons": [ {"partsId": 3, "icon": "fullicon.png"}]
+        },
+        {
+            "iconsId": 4,
+            "iconsName": "hair",
+            "icons": [{"partsId": 1, "icon": "hair_none.png"}, {"partsId": 3, "icon": "hairicon.png"} ]
+        },
+        {
+            "iconsId": 5,
+            "iconsName": "heads",
+            "icons": [{"partsId": 1, "icon": "headicon.png"}, {"partsId": 2, "icon": "head2icon.png"}, {"partsId": 3, "icon": "head3icon.png"}]
+        },
+        {
+            "iconsId": 6,
+            "iconsName": "legs",
+            "icons": [{"partsId": 3, "icon": "legsicon.png"}]
+        },
+        {
+            "iconsId": 7,
+            "iconsName": "torsos",
+            "icons": [{"partsId": 3, "icon": "torsoicon.png"}]
+        }
+    ],
+    "parts": [
+        {
+            "partsId": 3,
+            "partsName": "group3",
+            "parts": {
+                "head":"head.png",
+                "hair":"hair.png",
+                "torso":"torso.png",
+                "leftArm":"leftarm.png",
+                "rightArm":"rightarm.png",
+                "legs":"legs.png",
+                "feet":"feet.png"
+            }
+        }
+    ]
+    
+}

@@ -32,7 +32,11 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/createjs/builds/createjs-2015.11.26.min.js",
+              "src/assets/js/avatar-renderer.js"
+            ]
           },
           "configurations": {
             "production": {
