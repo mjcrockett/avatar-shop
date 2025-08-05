@@ -1,0 +1,27 @@
+.singleGrp {
+    margin-top: 20px;
+    position: relative;
+}
+.colorChange {
+    border: initial !important;
+    border-radius: 10px !important;
+    transition: background-color .5s ease-out;
+    -webkit-transition: background-color .5 ease-out;
+    -moz-transition: background-color .5s ease-out;
+    -o-transition: background-color .5s ease-out;
+    outline: 0;
+}
+.colorChange.selected {
+    background-color: #ceefb1;
+}
+.colorChange:hover {
+    background-color: #ceefb1 !important;
+}
+.col-3 {
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.img-btn {
+    width: 100%;
+}

@@ -3,44 +3,44 @@
         {
             "iconsId": 1,
             "iconsName": "arms",
-            "icons": [ {"partsId": 3, "icon": "arms3icon.png"}]
+            "icons": [ {"partsId": 3, "path": "arms3icon.png"}]
         },
         {
             "iconsId": 2,
             "iconsName": "feet",
-            "icons": [ {"partsId": 3, "icon": "feeticon.png"}]
+            "icons": [ {"partsId": 3, "path": "feeticon.png"}]
         },
         {
             "iconsId": 3,
             "iconsName": "full",
-            "icons": [ {"partsId": 3, "icon": "fullicon.png"}]
+            "icons": [ {"partsId": 3, "path": "fullicon.png"}]
         },
         {
             "iconsId": 4,
             "iconsName": "hair",
-            "icons": [{"partsId": 1, "icon": "hair_none.png"}, {"partsId": 3, "icon": "hairicon.png"} ]
+            "icons": [{"partsId": 1, "path": "hair_none.png"}, {"partsId": 3, "path": "hairicon.png"} ]
         },
         {
             "iconsId": 5,
             "iconsName": "heads",
-            "icons": [{"partsId": 1, "icon": "headicon.png"}, {"partsId": 2, "icon": "head2icon.png"}, {"partsId": 3, "icon": "head3icon.png"}]
+            "icons": [{"partsId": 1, "path": "headicon.png"}, {"partsId": 2, "path": "head2icon.png"}, {"partsId": 3, "path": "head3icon.png"}]
         },
         {
             "iconsId": 6,
             "iconsName": "legs",
-            "icons": [{"partsId": 3, "icon": "legsicon.png"}]
+            "icons": [{"partsId": 3, "path": "legsicon.png"}]
         },
         {
             "iconsId": 7,
             "iconsName": "torsos",
-            "icons": [{"partsId": 3, "icon": "torsoicon.png"}]
+            "icons": [{"partsId": 3, "path": "torsoicon.png"}]
         }
     ],
     "parts": [
         {
             "partsId": 1,
             "partsName": "group1",
-            "parts": {
+            "paths": {
                 "head":"head.png",
                 "hair":""
             }
@@ -48,14 +48,14 @@
         {
             "partsId": 2,
             "partsName": "group2",
-            "parts": {
+            "paths": {
                 "head":"head.png"
             }
         },
         {
             "partsId": 3,
             "partsName": "group3",
-            "parts": {
+            "paths": {
                 "head":"head.png",
                 "hair":"hair.png",
                 "torso":"torso.png",

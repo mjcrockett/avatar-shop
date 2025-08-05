@@ -1,0 +1,9 @@
+<div class="d-flex flex-row">
+    <ng-container *ngIf="category">
+        <div class="singleGrp col-3" *ngFor="let icon of (icons$ | async)?.icons">
+            <div class="colorChange">
+                <img class="img-btn" src="assets/icons/{{categories[category] | lowercase}}/{{icon.path}}"/>
+            </div>
+        </div>
+    </ng-container>
+</div>
