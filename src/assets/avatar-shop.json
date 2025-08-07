@@ -3,37 +3,37 @@
         {
             "iconsId": 1,
             "iconsName": "arms",
-            "icons": [ {"partsId": 3, "path": "arms3icon.png"}]
+            "icons": [ {"partsId": 3, "path": "arms3icon.png"}, {"partsId": 4, "path": "zombie.png"}]
         },
         {
             "iconsId": 2,
             "iconsName": "feet",
-            "icons": [ {"partsId": 3, "path": "feeticon.png"}]
+            "icons": [ {"partsId": 3, "path": "feeticon.png"}, {"partsId": 4, "path": "zombie.png"}]
         },
         {
             "iconsId": 3,
             "iconsName": "full",
-            "icons": [ {"partsId": 3, "path": "fullicon.png"}]
+            "icons": [ {"partsId": 3, "path": "fullicon.png"}, {"partsId": 4, "path": "zombie.png"}]
         },
         {
             "iconsId": 4,
             "iconsName": "hair",
-            "icons": [{"partsId": 1, "path": "hair_none.png"}, {"partsId": 3, "path": "hairicon.png"} ]
+            "icons": [{"partsId": 1, "path": "hair_none.png"}, {"partsId": 3, "path": "hairicon.png"}, {"partsId": 4, "path": "zombie.png"} ]
         },
         {
             "iconsId": 5,
             "iconsName": "heads",
-            "icons": [{"partsId": 1, "path": "headicon.png"}, {"partsId": 2, "path": "head2icon.png"}, {"partsId": 3, "path": "head3icon.png"}]
+            "icons": [{"partsId": 1, "path": "headicon.png"}, {"partsId": 2, "path": "head2icon.png"}, {"partsId": 3, "path": "head3icon.png"}, {"partsId": 4, "path": "zombie.png"}]
         },
         {
             "iconsId": 6,
             "iconsName": "legs",
-            "icons": [{"partsId": 3, "path": "legsicon.png"}]
+            "icons": [{"partsId": 3, "path": "legsicon.png"}, {"partsId": 4, "path": "zombie.png"}]
         },
         {
             "iconsId": 7,
             "iconsName": "torsos",
-            "icons": [{"partsId": 3, "path": "torsoicon.png"}]
+            "icons": [{"partsId": 3, "path": "torsoicon.png"}, {"partsId": 4, "path": "zombie.png"}]
         }
     ],
     "parts": [
@@ -55,6 +55,19 @@
         {
             "partsId": 3,
             "partsName": "group3",
+            "paths": {
+                "head":"head.png",
+                "hair":"hair.png",
+                "torso":"torso.png",
+                "leftArm":"leftarm.png",
+                "rightArm":"rightarm.png",
+                "legs":"legs.png",
+                "feet":"feet.png"
+            }
+        },
+        {
+            "partsId": 4,
+            "partsName": "zombie",
             "paths": {
                 "head":"head.png",
                 "hair":"hair.png",
