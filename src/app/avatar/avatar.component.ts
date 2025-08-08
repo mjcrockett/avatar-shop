@@ -13,13 +13,13 @@ export class AvatarComponent implements AfterViewInit {
 ngAfterViewInit(): void {
   const parts = 
   {
-    "head":"assets/parts/zombie/head.png",
-    "hair":"assets/parts/zombie/hair.png",
-    "torso":"assets/parts/zombie/torso.png",
-    "leftArm":"assets/parts/zombie/leftarm.png",
-    "rightArm":"assets/parts/zombie/rightarm.png",
-    "legs":"assets/parts/zombie/legs.png",
-    "feet":"assets/parts/zombie/feet.png"
+    "head":"assets/parts/group1/head.png",
+    "hair":"assets/parts/banana/hair.png",
+    "torso":"assets/parts/banana/torso.png",
+    "leftArm":"assets/parts/banana/leftarm.png",
+    "rightArm":"assets/parts/banana/rightarm.png",
+    "legs":"assets/parts/banana/legs.png",
+    "feet":"assets/parts/banana/feet.png"
   };
 
   jQuery(() => {
@@ -27,8 +27,11 @@ ngAfterViewInit(): void {
       bodyParts: parts,
       facingRight: true,
       justTheHead: false,
-      xPos: 5,
-      yPos: -80,
+      shouldBlink: true,
+      xPos: 40,
+      yPos: 30,
+      scale: 1,
+      showShadow: false,
       complete: function () {
           // $badgeAvatar.css({
           //     "width": "80%",
