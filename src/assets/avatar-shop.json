@@ -3,37 +3,37 @@
         {
             "iconsId": 1,
             "iconsName": "arms",
-            "icons": [ {"partsId": 3, "path": "arms3icon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}]
+            "icons": [ {"partsId": 3, "path": "arms3icon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}, {"partsId": 6, "path": "bart.png"}]
         },
         {
             "iconsId": 2,
             "iconsName": "feet",
-            "icons": [ {"partsId": 3, "path": "feeticon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}]
+            "icons": [ {"partsId": 3, "path": "feeticon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}, {"partsId": 6, "path": "bart.png"}]
         },
         {
             "iconsId": 3,
             "iconsName": "full",
-            "icons": [ {"partsId": 3, "path": "fullicon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}]
+            "icons": [ {"partsId": 3, "path": "fullicon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}, {"partsId": 6, "path": "bart.png"}]
         },
         {
             "iconsId": 4,
             "iconsName": "hair",
-            "icons": [{"partsId": 1, "path": "hair_none.png"}, {"partsId": 3, "path": "hairicon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"} ]
+            "icons": [{"partsId": 1, "path": "hair_none.png"}, {"partsId": 3, "path": "hairicon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}, {"partsId": 6, "path": "bart.png"} ]
         },
         {
             "iconsId": 5,
             "iconsName": "heads",
-            "icons": [{"partsId": 1, "path": "headicon.png"}, {"partsId": 2, "path": "head2icon.png"}, {"partsId": 3, "path": "head3icon.png"}, {"partsId": 4, "path": "zombie.png"}]
+            "icons": [{"partsId": 1, "path": "headicon.png"}, {"partsId": 2, "path": "head2icon.png"}, {"partsId": 3, "path": "head3icon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 6, "path": "bart.png"}]
         },
         {
             "iconsId": 6,
             "iconsName": "legs",
-            "icons": [{"partsId": 3, "path": "legsicon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}]
+            "icons": [{"partsId": 3, "path": "legsicon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}, {"partsId": 6, "path": "bart.png"}]
         },
         {
             "iconsId": 7,
             "iconsName": "torsos",
-            "icons": [{"partsId": 3, "path": "torsoicon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}]
+            "icons": [{"partsId": 3, "path": "torsoicon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}, {"partsId": 6, "path": "bart.png"}]
         }
     ],
     "parts": [
@@ -81,6 +81,19 @@
         {
             "partsId": 5,
             "partsName": "banana",
+            "paths": {
+                "head":"head.png",
+                "hair":"hair.png",
+                "torso":"torso.png",
+                "leftArm":"leftarm.png",
+                "rightArm":"rightarm.png",
+                "legs":"legs.png",
+                "feet":"feet.png"
+            }
+        },
+        {
+            "partsId": 6,
+            "partsName": "bart",
             "paths": {
                 "head":"head.png",
                 "hair":"hair.png",
