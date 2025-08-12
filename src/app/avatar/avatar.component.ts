@@ -13,13 +13,13 @@ export class AvatarComponent implements AfterViewInit {
 ngAfterViewInit(): void {
   const parts = 
   {
-    "head":"assets/parts/bart/head.png",
-    "hair":"assets/parts/bart/hair.png",
-    "torso":"assets/parts/bart/torso.png",
-    "leftArm":"assets/parts/bart/leftarm.png",
-    "rightArm":"assets/parts/bart/rightarm.png",
-    "legs":"assets/parts/bart/legs.png",
-    "feet":"assets/parts/bart/feet.png"
+    "head":"assets/parts/group1/head.png",
+    "hair":"assets/parts/endIsNigh/hair.png",
+    "torso":"assets/parts/endIsNigh/torso.png",
+    "leftArm":"assets/parts/endIsNigh/leftarm.png",
+    "rightArm":"assets/parts/endIsNigh/rightarm.png",
+    "legs":"assets/parts/endIsNigh/legs.png",
+    "feet":"assets/parts/endIsNigh/feet.png"
   };
 
   jQuery(() => {
