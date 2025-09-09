@@ -82,6 +82,7 @@
             "partsId": 5,
             "partsName": "banana",
             "paths": {
+                "head":"head.png",
                 "hair":"hair.png",
                 "torso":"torso.png",
                 "leftArm":"leftarm.png",
@@ -107,6 +108,7 @@
             "partsId": 7,
             "partsName": "endIsNigh",
             "paths": {
+                "head":"head.png",
                 "hair":"hair.png",
                 "torso":"torso.png",
                 "leftArm":"leftarm.png",
@@ -117,7 +119,7 @@
         },
         {
             "partsId": 8,
-            "partsName": "endIsNigh2",
+            "partsName": "endIsNigh",
             "paths": {
                 "leftArm":"leftarm2.png",
                 "rightArm":"rightarm2.png"
@@ -125,7 +127,7 @@
         },
         {
             "partsId": 9,
-            "partsName": "endIsNigh3",
+            "partsName": "endIsNigh",
             "paths": {
                 "leftArm":"leftarm3.png",
                 "rightArm":"rightarm3.png"

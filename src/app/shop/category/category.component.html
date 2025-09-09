@@ -1,7 +1,7 @@
-<div class="d-flex flex-row flex-wrap">
+<div class="d-flex flex-row flex-wrap bk-grnd">
     <ng-container *ngIf="category">
         <div class="singleGrp col-3" *ngFor="let icon of (icons$ | async)?.icons">
-            <div class="colorChange">
+            <div class="colorChange" (click)="applySelected(icon.partsId)">
                 <img class="img-btn" src="assets/icons/{{categories[category] | lowercase}}/{{icon.path}}"/>
             </div>
         </div>

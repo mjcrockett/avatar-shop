@@ -39,4 +39,52 @@ export class CategoryComponent implements OnInit {
       // tap((icon) => console.log(icon))
     );
   }
+
+  applySelected(partsId: number): void {
+    this._shopService.GetPartsById(partsId).pipe(map((p) => 
+      {
+        const basePath = `assets\\parts\\${p.partsName}\\`;
+        switch (this.category) {
+          case this.categories.Arms: 
+            return { 
+              leftArm: basePath + p.paths.leftArm,
+              rightArm: basePath + p.paths.rightArm
+            } as AvatarParts;
+          case this.categories.Feet:
+            return { 
+              feet: basePath + p.paths.feet 
+            } as AvatarParts;
+          case this.categories.Hair:
+            return {
+              hair: basePath + p.paths.hair
+            } as AvatarParts;
+          case this.categories.Heads:
+            return {
+              head: basePath + p.paths.head
+            } as AvatarParts;
+          case this.categories.Legs:
+            return {
+              legs: basePath + p.paths.legs
+            } as AvatarParts;
+          case this.categories.Torsos:
+            return {
+              torso: basePath + p.paths.torso
+            } as AvatarParts;
+          default: 
+            return {
+              head: basePath + p.paths.head,
+              hair: basePath + p.paths.hair,
+              torso: basePath + p.paths.torso,
+              leftArm: basePath + p.paths.leftArm,
+              rightArm: basePath + p.paths.rightArm,
+              legs: basePath + p.paths.legs,
+              feet: basePath + p.paths.feet,
+            } as AvatarParts;
+        }
+      
+    }
+    )).subscribe((parts) => {
+      this._shopService.currentBody.next(parts);
+    });
+  }
 }

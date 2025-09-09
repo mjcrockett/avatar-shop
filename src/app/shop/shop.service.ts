@@ -1,13 +1,23 @@
 import { Injectable } from '@angular/core';
 import { AllData, Icons, Parts } from './models';
 import { HttpClient } from '@angular/common/http';
-import { map, Observable, of, tap } from 'rxjs';
+import { BehaviorSubject, map, Observable, of, tap } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ShopService {
 
+  private _defaultParts = {
+    head: 'assets/parts/group1/head.png',
+    hair: 'assets/parts/endIsNigh/hair.png',
+    torso: 'assets/parts/endIsNigh/torso.png',
+    leftArm: 'assets/parts/endIsNigh/leftarm.png',
+    rightArm: 'assets/parts/endIsNigh/rightarm.png',
+    legs: 'assets/parts/endIsNigh/legs.png',
+    feet: 'assets/parts/endIsNigh/feet.png',
+  };
+  currentBody: BehaviorSubject<AvatarParts> = new BehaviorSubject<AvatarParts>(this._defaultParts);
   private _allData?: AllData;
   constructor(private readonly _httpClient: HttpClient) { }
 
