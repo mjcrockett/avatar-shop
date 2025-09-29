@@ -1,3 +1,25 @@
 .nav-link {
     cursor: pointer;
 }
+.bk-grnd {
+    background-color: #055805;// #057705
+}
+.colorChange {
+    border: initial !important;
+    border-radius: 10px !important;
+    transition: background-color .5s ease-out;
+    -webkit-transition: background-color .5 ease-out;
+    -moz-transition: background-color .5s ease-out;
+    -o-transition: background-color .5s ease-out;
+    outline: 0;
+}
+.selected {
+    background-color: #057705;
+    border-radius: 10px 10px 0 0 !important;
+}
+.colorChange:hover {
+    background-color: #ceefb1 !important;
+}
+a {
+    cursor: pointer;
+}

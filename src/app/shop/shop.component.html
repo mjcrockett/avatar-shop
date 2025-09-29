@@ -1,27 +1,41 @@
 <ng-container *ngIf="{ category: categories.Full } as c">
-    <ul class="nav justify-content-center">
-        <li class="nav-item">
-            <a class="nav-link" (click)="c.category = categories.Full">Full</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" (click)="c.category = categories.Heads">Heads</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" (click)="c.category = categories.Hair">Hair</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" (click)="c.category = categories.Torsos">Torsos</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link active" aria-current="page" (click)="c.category = categories.Arms">Arms</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" (click)="c.category = categories.Legs">Legs</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" (click)="c.category = categories.Feet">Feet</a>
-        </li>
-    </ul>
+    <div class="d-flex flex-row justify-content-center bk-grnd">
+        <div [ngClass]="{'selected': c.category === categories.Full,'colorChange': c.category !== categories.Full}" >
+            <a class="d-inline-block" (click)="c.category = categories.Full" >
+                <img src="assets/menu/full.png" width="50" height="50"/>
+            </a>
+        </div>
+        <div [ngClass]="{'selected': c.category === categories.Heads,'colorChange': c.category !== categories.Heads}">
+            <a class="d-inline-block" (click)="c.category = categories.Heads" >
+                <img src="assets/menu/head.png" width="50" height="50"/>
+            </a>
+        </div>
+        <div [ngClass]="{'selected': c.category === categories.Hair,'colorChange': c.category !== categories.Hair}">
+            <a class="d-inline-block" (click)="c.category = categories.Hair" >
+                <img src="assets/menu/hair.png" width="50" height="50"/>
+            </a>
+        </div>
+        <div [ngClass]="{'selected': c.category === categories.Torsos,'colorChange': c.category !== categories.Torsos}">
+            <a class="d-inline-block" (click)="c.category = categories.Torsos" >
+                <img src="assets/menu/torso.png" width="50" height="50"/>
+            </a>
+        </div>
+        <div [ngClass]="{'selected': c.category === categories.Arms,'colorChange': c.category !== categories.Arms}">
+            <a class="d-inline-block" aria-current="page" (click)="c.category = categories.Arms" >
+                <img src="assets/menu/arms.png" width="50" height="50"/>
+            </a>
+        </div>
+        <div [ngClass]="{'selected': c.category === categories.Legs,'colorChange': c.category !== categories.Legs}">
+            <a class="d-inline-block" (click)="c.category = categories.Legs" >
+                <img src="assets/menu/legs.png" width="50" height="50"/>
+            </a>
+        </div>
+        <div [ngClass]="{'selected': c.category === categories.Feet,'colorChange': c.category !== categories.Feet}">
+            <a class="d-inline-block" (click)="c.category = categories.Feet" >
+                <img src="assets/menu/feet.png" width="50" height="50"/>
+            </a>
+        </div>
+    </div>
 
     <app-category [category]="c.category"></app-category>
   </ng-container>
