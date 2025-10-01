@@ -1,5 +1,6 @@
+<app-banner>
 <ng-container *ngIf="{ category: categories.Full } as c">
-    <div class="d-flex flex-row justify-content-center bk-grnd">
+    <div class="d-flex flex-row justify-content-center">
         <div class="p-1" [ngClass]="{'selected': c.category === categories.Full}">
             <div class="mb-1" [ngClass]="{'colorChange': c.category !== categories.Full}" >
                 <a class="d-inline-block" (click)="c.category = categories.Full" >
@@ -53,3 +54,4 @@
 
     <app-category [category]="c.category"></app-category>
   </ng-container>
+</app-banner>
