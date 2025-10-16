@@ -92,7 +92,7 @@
          * @param methodOrOptions The name of the method to call.
          * @param newBodyParts The AvatarParts body object 
          */
-        avatar(methodOrOptions: 'insertNewParts', newBodyParts: AvatarParts): void;
+        avatar(methodOrOptions: 'insertNewParts', newBodyParts: AvatarParts, handleComplete: Function): void;
                     
         /**
          * @param methodOrOptions The name of the method to call.

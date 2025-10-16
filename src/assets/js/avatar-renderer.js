@@ -1237,7 +1237,9 @@
             _changeOrientation(this.data('options'));
         },
 
-        insertNewParts: function (newBodyParts) {
+        insertNewParts: function (newBodyParts, handleComplete) {
+            var ct = 0;
+            var total = Object.keys(newBodyParts).length;
             var options = this.data('options');
             var partExchanger = function (partName, address) {
                 partName = partName === "head" ? "face" : partName;
@@ -1252,6 +1254,10 @@
                 options.images[name] = new Image();
                 options.images[name].onload = function () {
                     partExchanger(name, address);
+                    ct++;
+                    if (ct == total && handleComplete){
+                        handleComplete.call();
+                    }
                 }
 
                 if (address != "") {
@@ -1265,6 +1271,7 @@
                     case "hair":
                         //an avatar can be bald, this is a special case
                         if (newBodyParts.hair == "") {
+                            total--;
                             options.images["hair"].src = "";
                             partExchanger("hair", "");
                         }

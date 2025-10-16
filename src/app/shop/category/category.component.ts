@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Categories, Icons } from '../models';
 import { ShopService } from '../shop.service';
-import { BehaviorSubject, filter, map, Observable, Subject, switchMap, tap } from 'rxjs';
+import { BehaviorSubject, filter, first, map, Observable, switchMap } from 'rxjs';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -41,7 +41,7 @@ export class CategoryComponent implements OnInit {
   }
 
   applySelected(partsId: number): void {
-    this._shopService.GetPartsById(partsId).pipe(map((p) => 
+    this._shopService.GetPartsById(partsId).pipe(first(), map((p) => 
       {
         const basePath = `assets\\parts\\${p.partsName}\\`;
         switch (this.category) {
