@@ -3,22 +3,22 @@
         {
             "iconsId": 1,
             "iconsName": "arms",
-            "icons": [ {"partsId": 3, "path": "arms3icon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}, {"partsId": 6, "path": "bart.png"}, {"partsId": 7, "path": "endIsNigh.png"}, {"partsId": 8, "path": "endIsNigh2.png"}, {"partsId": 9, "path": "endIsNigh3.png"}]
+            "icons": [ {"partsId": 3, "path": "arms3icon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}, {"partsId": 6, "path": "bart.png"}, {"partsId": 7, "path": "endIsNigh.png"}, {"partsId": 8, "path": "endIsNigh2.png"}, {"partsId": 9, "path": "endIsNigh3.png"}, {"partsId": 10, "path": "dad.png"}, {"partsId": 11, "path": "dad2.png"}, {"partsId": 12, "path": "dad3.png"}]
         },
         {
             "iconsId": 2,
             "iconsName": "feet",
-            "icons": [ {"partsId": 3, "path": "feeticon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}, {"partsId": 6, "path": "bart.png"}, {"partsId": 7, "path": "endIsNigh.png"}]
+            "icons": [ {"partsId": 3, "path": "feeticon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}, {"partsId": 6, "path": "bart.png"}, {"partsId": 7, "path": "endIsNigh.png"}, {"partsId": 10, "path": "dad.png"}]
         },
         {
             "iconsId": 3,
             "iconsName": "full",
-            "icons": [ {"partsId": 3, "path": "fullicon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}, {"partsId": 6, "path": "bart.png"}, {"partsId": 7, "path": "endIsNigh.png"}]
+            "icons": [ {"partsId": 3, "path": "fullicon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}, {"partsId": 6, "path": "bart.png"}, {"partsId": 7, "path": "endIsNigh.png"}, {"partsId": 10, "path": "dad.png"}]
         },
         {
             "iconsId": 4,
             "iconsName": "hair",
-            "icons": [{"partsId": 1, "path": "hair_none.png"}, {"partsId": 3, "path": "hairicon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}, {"partsId": 6, "path": "bart.png"}, {"partsId": 7, "path": "endIsNigh.png"} ]
+            "icons": [{"partsId": 1, "path": "hair_none.png"}, {"partsId": 3, "path": "hairicon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}, {"partsId": 6, "path": "bart.png"}, {"partsId": 7, "path": "endIsNigh.png"}, {"partsId": 10, "path": "dad.png"} ]
         },
         {
             "iconsId": 5,
@@ -28,12 +28,12 @@
         {
             "iconsId": 6,
             "iconsName": "legs",
-            "icons": [{"partsId": 3, "path": "legsicon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}, {"partsId": 6, "path": "bart.png"}, {"partsId": 7, "path": "endIsNigh.png"}]
+            "icons": [{"partsId": 3, "path": "legsicon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}, {"partsId": 6, "path": "bart.png"}, {"partsId": 7, "path": "endIsNigh.png"}, {"partsId": 10, "path": "dad.png"}]
         },
         {
             "iconsId": 7,
             "iconsName": "torsos",
-            "icons": [{"partsId": 3, "path": "torsoicon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}, {"partsId": 6, "path": "bart.png"}, {"partsId": 7, "path": "endIsNigh.png"}]
+            "icons": [{"partsId": 3, "path": "torsoicon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}, {"partsId": 6, "path": "bart.png"}, {"partsId": 7, "path": "endIsNigh.png"}, {"partsId": 10, "path": "dad.png"}]
         }
     ],
     "parts": [
@@ -128,6 +128,35 @@
         {
             "partsId": 9,
             "partsName": "endIsNigh",
+            "paths": {
+                "leftArm":"leftarm3.png",
+                "rightArm":"rightarm3.png"
+            }
+        },
+        {
+            "partsId": 10,
+            "partsName": "dad",
+            "paths": {
+                "head":"head.png",
+                "hair":"hair.png",
+                "torso":"torso.png",
+                "leftArm":"leftarm.png",
+                "rightArm":"rightarm.png",
+                "legs":"legs.png",
+                "feet":"feet.png"
+            }
+        },
+        {
+            "partsId": 11,
+            "partsName": "dad",
+            "paths": {
+                "leftArm":"leftarm2.png",
+                "rightArm":"rightarm2.png"
+            }
+        },
+        {
+            "partsId": 12,
+            "partsName": "dad",
             "paths": {
                 "leftArm":"leftarm3.png",
                 "rightArm":"rightarm3.png"
