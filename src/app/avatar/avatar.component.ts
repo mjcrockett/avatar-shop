@@ -2,17 +2,20 @@ import { AfterViewInit, Component, OnDestroy, OnInit, ViewChild } from '@angular
 import { ShopService } from '../shop/shop.service';
 import { combineLatest, Subject, takeUntil } from 'rxjs';
 import { CurtainComponent } from './curtain/curtain.component';
+import { AudioComponent } from '../audio/audio.component';
 declare var $: any;
 
 @Component({
   selector: 'app-avatar',
   standalone: true,
-  imports: [CurtainComponent],
+  imports: [CurtainComponent, AudioComponent],
   templateUrl: './avatar.component.html',
   styleUrl: './avatar.component.scss',
 })
 export class AvatarComponent implements OnInit, AfterViewInit, OnDestroy {
   @ViewChild('curtain') curtainComponent!: CurtainComponent;
+  @ViewChild('audio') audioComponent!: AudioComponent;
+  public audioFile: string = '';
   private _$avatar: any;
   private _reacting: boolean = false; 
   private _onReady: Subject<boolean> = new Subject<boolean>();
@@ -28,7 +31,7 @@ export class AvatarComponent implements OnInit, AfterViewInit, OnDestroy {
     .pipe(takeUntil(this._destroyed$)).subscribe((both) => {
       const that = this;
       if (!this._initialized) {
-        
+        that.audioFile = 'assets/general/curtain.mp3';
         that._$avatar.avatar({
           bodyParts: both.body,
           facingRight: true,
@@ -47,8 +50,10 @@ export class AvatarComponent implements OnInit, AfterViewInit, OnDestroy {
           },
         });
       } else {
+        that.audioComponent.play();
         that.curtainComponent.shutCurtain(() => {
           that._$avatar.avatar('insertNewParts', both.body, () => {
+            that.audioComponent.play();
             that.curtainComponent.openCurtain(() => {
               that._performRandomReaction();
             });

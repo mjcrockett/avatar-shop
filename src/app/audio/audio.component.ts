@@ -6,6 +6,7 @@ import { takeWhile } from 'rxjs/operators';
 
 @Component({
     selector: 'audio-default',
+    standalone: true,
     template: `
     <audio #audioPlayer [loop]="loop"></audio>`,
     styles: [`
