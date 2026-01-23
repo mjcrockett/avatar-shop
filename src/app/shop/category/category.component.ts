@@ -56,7 +56,7 @@ export class CategoryComponent implements OnInit {
             } as AvatarParts;
           case this.categories.Hair:
             return {
-              hair: basePath + p.paths.hair
+              hair: p.paths.hair === '' ? '' : basePath + p.paths.hair
             } as AvatarParts;
           case this.categories.Heads:
             return {

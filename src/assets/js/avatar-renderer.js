@@ -1274,6 +1274,7 @@
                             total--;
                             options.images["hair"].src = "";
                             partExchanger("hair", "");
+                            handleComplete.call();
                         }
                         else {
                             loadImage("hair", newBodyParts.hair);
