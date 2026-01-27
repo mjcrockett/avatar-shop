@@ -1,0 +1,9 @@
+.avatar-container {
+    float: right;
+}
+@media (max-width: 768px) {
+    .avatar-container {
+        float: none;
+        text-align: center;
+    }
+}
