@@ -3,22 +3,22 @@
         {
             "iconsId": 1,
             "iconsName": "arms",
-            "icons": [ {"partsId": 3, "path": "arms3icon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}, {"partsId": 6, "path": "bart.png"}, {"partsId": 7, "path": "endIsNigh.png"}, {"partsId": 8, "path": "endIsNigh2.png"}, {"partsId": 9, "path": "endIsNigh3.png"}, {"partsId": 10, "path": "dad.png"}, {"partsId": 11, "path": "dad2.png"}, {"partsId": 12, "path": "dad3.png"}, {"partsId": 13, "path": "rick.png"}, {"partsId": 14, "path": "rick2.png"}, {"partsId": 15, "path": "rick3.png"}, {"partsId": 16, "path": "princess.png"}, {"partsId": 17, "path": "princess2.png"}, {"partsId": 18, "path": "princess3.png"}, {"partsId": 19, "path": "mario.png"}, {"partsId": 20, "path": "cowgirl.png"}, {"partsId": 22, "path": "blondGirlArms1.png"}, {"partsId": 23, "path": "blondGirlArms2.png"}, {"partsId": 24, "path": "blondGirlArms3.png"}]
+            "icons": [ {"partsId": 3, "path": "arms3icon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}, {"partsId": 6, "path": "bart.png"}, {"partsId": 7, "path": "endIsNigh.png"}, {"partsId": 8, "path": "endIsNigh2.png"}, {"partsId": 9, "path": "endIsNigh3.png"}, {"partsId": 10, "path": "dad.png"}, {"partsId": 11, "path": "dad2.png"}, {"partsId": 12, "path": "dad3.png"}, {"partsId": 13, "path": "rick.png"}, {"partsId": 14, "path": "rick2.png"}, {"partsId": 15, "path": "rick3.png"}, {"partsId": 16, "path": "princess.png"}, {"partsId": 17, "path": "princess2.png"}, {"partsId": 18, "path": "princess3.png"}, {"partsId": 19, "path": "mario.png"}, {"partsId": 20, "path": "cowgirl.png"}, {"partsId": 22, "path": "blondGirlArms1.png"}, {"partsId": 23, "path": "blondGirlArms2.png"}, {"partsId": 24, "path": "blondGirlArms3.png"}, {"partsId": 41, "path": "susan.png"}, {"partsId": 36, "path": "susan2.png"}, {"partsId": 42, "path": "susan3.png"}]
         },
         {
             "iconsId": 2,
             "iconsName": "feet",
-            "icons": [ {"partsId": 3, "path": "feeticon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}, {"partsId": 6, "path": "bart.png"}, {"partsId": 7, "path": "endIsNigh.png"}, {"partsId": 10, "path": "dad.png"}, {"partsId": 13, "path": "rick.png"}, {"partsId": 16, "path": "princess.png"}, {"partsId": 19, "path": "mario.png"}, {"partsId": 20, "path": "cowgirl.png"}, {"partsId": 28, "path": "blondGirlFeet1.png"}, {"partsId": 29, "path": "blondGirlFeet2.png"}, {"partsId": 30, "path": "blondGirlFeet3.png"}, {"partsId": 35, "path": "ted.png"}]
+            "icons": [ {"partsId": 3, "path": "feeticon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}, {"partsId": 6, "path": "bart.png"}, {"partsId": 7, "path": "endIsNigh.png"}, {"partsId": 10, "path": "dad.png"}, {"partsId": 13, "path": "rick.png"}, {"partsId": 16, "path": "princess.png"}, {"partsId": 19, "path": "mario.png"}, {"partsId": 20, "path": "cowgirl.png"}, {"partsId": 28, "path": "blondGirlFeet1.png"}, {"partsId": 29, "path": "blondGirlFeet2.png"}, {"partsId": 30, "path": "blondGirlFeet3.png"}, {"partsId": 35, "path": "ted.png"}, {"partsId": 39, "path": "susan.png"}, {"partsId": 36, "path": "susan2.png"}, {"partsId": 40, "path": "susan3.png"}]
         },
         {
             "iconsId": 3,
             "iconsName": "full",
-            "icons": [ {"partsId": 3, "path": "fullicon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}, {"partsId": 6, "path": "bart.png"}, {"partsId": 7, "path": "endIsNigh.png"}, {"partsId": 10, "path": "dad.png"}, {"partsId": 13, "path": "rick.png"}, {"partsId": 16, "path": "princess.png"}, {"partsId": 19, "path": "mario.png"}, {"partsId": 20, "path": "cowgirl.png"}, {"partsId": 21, "path": "blondGirl.png"}, {"partsId": 31, "path": "ted.png"}]
+            "icons": [ {"partsId": 3, "path": "fullicon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}, {"partsId": 6, "path": "bart.png"}, {"partsId": 7, "path": "endIsNigh.png"}, {"partsId": 10, "path": "dad.png"}, {"partsId": 13, "path": "rick.png"}, {"partsId": 16, "path": "princess.png"}, {"partsId": 19, "path": "mario.png"}, {"partsId": 20, "path": "cowgirl.png"}, {"partsId": 21, "path": "blondGirl.png"}, {"partsId": 31, "path": "ted.png"}, {"partsId": 36, "path": "susan.png"}]
         },
         {
             "iconsId": 4,
             "iconsName": "hair",
-            "icons": [{"partsId": 1, "path": "hair_none.png"}, {"partsId": 3, "path": "hairicon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}, {"partsId": 6, "path": "bart.png"}, {"partsId": 7, "path": "endIsNigh.png"}, {"partsId": 10, "path": "dad.png"}, {"partsId": 13, "path": "rick.png"}, {"partsId": 16, "path": "princess.png"}, {"partsId": 19, "path": "mario.png"}, {"partsId": 20, "path": "cowgirl.png"}, {"partsId": 21, "path": "blondGirl.png"}, {"partsId": 32, "path": "ted.png"} ]
+            "icons": [{"partsId": 1, "path": "hair_none.png"}, {"partsId": 3, "path": "hairicon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}, {"partsId": 6, "path": "bart.png"}, {"partsId": 7, "path": "endIsNigh.png"}, {"partsId": 10, "path": "dad.png"}, {"partsId": 13, "path": "rick.png"}, {"partsId": 16, "path": "princess.png"}, {"partsId": 19, "path": "mario.png"}, {"partsId": 20, "path": "cowgirl.png"}, {"partsId": 21, "path": "blondGirl.png"}, {"partsId": 32, "path": "ted.png"}, {"partsId": 36, "path": "susan.png"} ]
         },
         {
             "iconsId": 5,
@@ -28,12 +28,12 @@
         {
             "iconsId": 6,
             "iconsName": "legs",
-            "icons": [{"partsId": 3, "path": "legsicon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}, {"partsId": 6, "path": "bart.png"}, {"partsId": 7, "path": "endIsNigh.png"}, {"partsId": 10, "path": "dad.png"}, {"partsId": 13, "path": "rick.png"}, {"partsId": 16, "path": "princess.png"}, {"partsId": 19, "path": "mario.png"}, {"partsId": 20, "path": "cowgirl.png"}, {"partsId": 25, "path": "blondGirlLegs1.png"}, {"partsId": 26, "path": "blondGirlLegs2.png"}, {"partsId": 27, "path": "blondGirlLegs3.png"}, {"partsId": 34, "path": "ted.png"}]
+            "icons": [{"partsId": 3, "path": "legsicon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}, {"partsId": 6, "path": "bart.png"}, {"partsId": 7, "path": "endIsNigh.png"}, {"partsId": 10, "path": "dad.png"}, {"partsId": 13, "path": "rick.png"}, {"partsId": 16, "path": "princess.png"}, {"partsId": 19, "path": "mario.png"}, {"partsId": 20, "path": "cowgirl.png"}, {"partsId": 25, "path": "blondGirlLegs1.png"}, {"partsId": 26, "path": "blondGirlLegs2.png"}, {"partsId": 27, "path": "blondGirlLegs3.png"}, {"partsId": 34, "path": "ted.png"}, {"partsId": 37, "path": "susan.png"}, {"partsId": 36, "path": "susan2.png"}, {"partsId": 38, "path": "susan3.png"}]
         },
         {
             "iconsId": 7,
             "iconsName": "torsos",
-            "icons": [{"partsId": 3, "path": "torsoicon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}, {"partsId": 6, "path": "bart.png"}, {"partsId": 7, "path": "endIsNigh.png"}, {"partsId": 10, "path": "dad.png"}, {"partsId": 13, "path": "rick.png"}, {"partsId": 16, "path": "princess.png"}, {"partsId": 19, "path": "mario.png"}, {"partsId": 20, "path": "cowgirl.png"}, {"partsId": 21, "path": "blondGirl.png"}, {"partsId": 33, "path": "ted.png"}]
+            "icons": [{"partsId": 3, "path": "torsoicon.png"}, {"partsId": 4, "path": "zombie.png"}, {"partsId": 5, "path": "banana.png"}, {"partsId": 6, "path": "bart.png"}, {"partsId": 7, "path": "endIsNigh.png"}, {"partsId": 10, "path": "dad.png"}, {"partsId": 13, "path": "rick.png"}, {"partsId": 16, "path": "princess.png"}, {"partsId": 19, "path": "mario.png"}, {"partsId": 20, "path": "cowgirl.png"}, {"partsId": 21, "path": "blondGirl.png"}, {"partsId": 33, "path": "ted.png"}, {"partsId": 36, "path": "susan.png"}]
         }
     ],
     "parts": [
@@ -364,6 +364,63 @@
             "partsName": "ted",
             "paths": {
                 "feet":"feet.png"
+            }
+        },
+        {
+            "partsId": 36,
+            "partsName": "susan",
+            "paths": {
+                "head":"head.png",
+                "hair":"hair.png",
+                "torso":"torso.png",
+                "leftArm":"leftarm2.png",
+                "rightArm":"rightarm2.png",
+                "legs":"legs2.png",
+                "feet":"feet2.png"
+            }
+        },
+        {
+            "partsId": 37,
+            "partsName": "susan",
+            "paths": {
+                "legs":"legs.png"
+            }
+        },
+        {
+            "partsId": 38,
+            "partsName": "susan",
+            "paths": {
+                "legs":"legs3.png"
+            }
+        },
+        {
+            "partsId": 39,
+            "partsName": "susan",
+            "paths": {
+                "feet":"feet.png"
+            }
+        },
+        {
+            "partsId": 40,
+            "partsName": "susan",
+            "paths": {
+                "feet":"feet3.png"
+            }
+        },
+        {
+            "partsId": 41,
+            "partsName": "susan",
+            "paths": {
+                "leftArm":"leftarm.png",
+                "rightArm":"rightarm.png"
+            }
+        },
+        {
+            "partsId": 42,
+            "partsName": "susan",
+            "paths": {
+                "leftArm":"leftarm3.png",
+                "rightArm":"rightarm3.png"
             }
         }
     ]
